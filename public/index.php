@@ -10,7 +10,7 @@
   
   $app->get('/', function (Request $request, Response $response, $args){
     $myObject = array('nome'=>'Tiago Ribeiro', "idade" => '22');
-    $response->getBody()->write(json_encode($myObject));
+    $response->getBody()->write(phpinfo());
 
     return $response->withHeader('Content-Type', 'application/json');
   });

@@ -1,9 +1,14 @@
 <?php
 
+/**
+ * @Entity
+ */
 class Dimension
 {
+    /** @Id @Column(type="integer") @GeneratedValue */
     protected $id;
 
+    /** @Column(type="string") */
     protected $dimension;
 
     public function getId(){

@@ -345,9 +345,11 @@ class Route extends Routable implements RouteInterface
                 $output = ob_get_clean();
             // @codeCoverageIgnoreStart
             } catch (Throwable $e) {
+                ob_end_clean();
                 throw $e;
             // @codeCoverageIgnoreEnd
             } catch (Exception $e) {
+                ob_end_clean();
                 throw $e;
             }
         }

@@ -17,6 +17,11 @@ $app->group('/api',
 
     $app->post('/dimensions', DimensionController::class . ':adding');
 
+    $app->get('/dimensions', DimensionController::class . ':listingAll');
+
+    $app->delete('/dimensions/{id}', DimensionController::class . ':deleting');
+
+    $app->put('/dimensions/{id}', DimensionController::class . ':updating');
 });
 
 ?>

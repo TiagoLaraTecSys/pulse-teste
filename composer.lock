@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fa42a6b52c6a81f2f45bdcfc29124bf",
+    "content-hash": "e6205a31e03ed7404ca2649f02cdb438",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1656,16 +1656,16 @@
         },
         {
             "name": "slim/slim",
-            "version": "3.9.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slimphp/Slim.git",
-                "reference": "575a8b53a0a489447915029c69680156cd355304"
+                "reference": "d462e5ba37fc2364d0955753caf18e866440ab43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/575a8b53a0a489447915029c69680156cd355304",
-                "reference": "575a8b53a0a489447915029c69680156cd355304",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/d462e5ba37fc2364d0955753caf18e866440ab43",
+                "reference": "d462e5ba37fc2364d0955753caf18e866440ab43",
                 "shasum": ""
             },
             "require": {
@@ -1725,9 +1725,9 @@
             ],
             "support": {
                 "issues": "https://github.com/slimphp/Slim/issues",
-                "source": "https://github.com/slimphp/Slim/tree/3.x"
+                "source": "https://github.com/slimphp/Slim/tree/3.8.0"
             },
-            "time": "2017-11-04T08:46:46+00:00"
+            "time": "2017-03-18T12:06:07+00:00"
         },
         {
             "name": "symfony/console",

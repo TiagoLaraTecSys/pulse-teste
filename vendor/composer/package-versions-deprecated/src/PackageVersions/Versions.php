@@ -56,7 +56,7 @@ final class Versions
   'psr/log' => '1.1.3@0f73288fd15629204f9d42b7055f72dacbe811fc',
   'ralouphie/getallheaders' => '3.0.3@120b605dfeb996808c31b6477290a714d356e822',
   'slim/psr7' => '1.3.0@235d2e5a5ee1ad4b97b96870f37f3091b22fffd7',
-  'slim/slim' => '3.9.0@575a8b53a0a489447915029c69680156cd355304',
+  'slim/slim' => '3.8.0@d462e5ba37fc2364d0955753caf18e866440ab43',
   'symfony/console' => 'v5.2.5@938ebbadae1b0a9c9d1ec313f87f9708609f1b79',
   'symfony/finder' => 'v5.2.4@0d639a0943822626290d169965804f79400e6a04',
   'symfony/polyfill-ctype' => 'v1.22.1@c6c942b1ac76c82448322025e084cadc56048b4e',
@@ -69,7 +69,7 @@ final class Versions
   'symfony/service-contracts' => 'v2.2.0@d15da7ba4957ffb8f1747218be9e1a121fd298a1',
   'symfony/string' => 'v5.2.4@4e78d7d47061fa183639927ec40d607973699609',
   'symfony/yaml' => 'v2.8.52@02c1859112aa779d9ab394ae4f3381911d84052b',
-  '__root__' => 'dev-main@5147a7fdf7c0ff92bb58f36f3d4e065e0ae847f9',
+  '__root__' => 'dev-main@67a506d028f65da077e8992b5a5e8c03aa15573a',
 );
 
     private function __construct()

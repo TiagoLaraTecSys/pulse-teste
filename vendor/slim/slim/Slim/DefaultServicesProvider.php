@@ -152,10 +152,7 @@ class DefaultServicesProvider
              * @return callable
              */
             $container['errorHandler'] = function ($container) {
-                return new Error(
-                    $container->get('settings')['displayErrorDetails'],
-                    $container->get('settings')['outputBuffering']
-                );
+                return new Error($container->get('settings')['displayErrorDetails']);
             };
         }
 

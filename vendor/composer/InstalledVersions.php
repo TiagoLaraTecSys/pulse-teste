@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '5147a7fdf7c0ff92bb58f36f3d4e065e0ae847f9',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '5147a7fdf7c0ff92bb58f36f3d4e065e0ae847f9',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -52,6 +52,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '7413f0b55a051e89485c5cb9f765fe24bb02a7b6',
+    ),
+    'container-interop/container-interop' => 
+    array (
+      'pretty_version' => '1.2.0',
+      'version' => '1.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '79cbf1341c22ec75643d841642dd5d6acd83bdb8',
     ),
     'doctrine/annotations' => 
     array (
@@ -161,6 +170,15 @@ private static $installed = array (
       ),
       'reference' => '9d94dc0154230ac39e5bf89398b324a86f63f765',
     ),
+    'monolog/monolog' => 
+    array (
+      'pretty_version' => '2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1cb1cde8e8dd0f70cc0fe51354a59acad9302084',
+    ),
     'nikic/fast-route' => 
     array (
       'pretty_version' => 'v1.3.0',
@@ -176,6 +194,15 @@ private static $installed = array (
       array (
         0 => '1.11.99',
       ),
+    ),
+    'pimple/pimple' => 
+    array (
+      'pretty_version' => 'v3.4.0',
+      'version' => '3.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '86406047271859ffc13424a048541f4531f53601',
     ),
     'psr/container' => 
     array (
@@ -218,24 +245,6 @@ private static $installed = array (
         0 => '1.0',
       ),
     ),
-    'psr/http-server-handler' => 
-    array (
-      'pretty_version' => '1.0.1',
-      'version' => '1.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'aff2f80e33b7f026ec96bb42f63242dc50ffcae7',
-    ),
-    'psr/http-server-middleware' => 
-    array (
-      'pretty_version' => '1.0.1',
-      'version' => '1.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '2296f45510945530b9dceb8bcedb5cb84d40c5f5',
-    ),
     'psr/log' => 
     array (
       'pretty_version' => '1.1.3',
@@ -249,7 +258,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'ralouphie/getallheaders' => 
@@ -272,12 +282,12 @@ private static $installed = array (
     ),
     'slim/slim' => 
     array (
-      'pretty_version' => '4.7.1',
-      'version' => '4.7.1.0',
+      'pretty_version' => '3.9.0',
+      'version' => '3.9.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0905e0775f8c1cfb3bbcfabeb6588dcfd8b82d3f',
+      'reference' => '575a8b53a0a489447915029c69680156cd355304',
     ),
     'symfony/console' => 
     array (
@@ -287,6 +297,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '938ebbadae1b0a9c9d1ec313f87f9708609f1b79',
+    ),
+    'symfony/finder' => 
+    array (
+      'pretty_version' => 'v5.2.4',
+      'version' => '5.2.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0d639a0943822626290d169965804f79400e6a04',
     ),
     'symfony/polyfill-ctype' => 
     array (
@@ -341,6 +360,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'dc3063ba22c2a1fd2f45ed856374d79114998f91',
+    ),
+    'symfony/process' => 
+    array (
+      'pretty_version' => 'v5.2.4',
+      'version' => '5.2.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '313a38f09c77fbcdc1d223e57d368cea76a2fd2f',
     ),
     'symfony/service-contracts' => 
     array (

@@ -12,10 +12,10 @@ class Questions
     protected $question;
 
     /** 
-     * @ManyToOne(targetEntity="Dimension")
+     * @ManyToOne(targetEntity="Dimension",cascade={"persist"})
      * @JoinColumn(name="dimension_id", referencedColumnName="id")
      */
-    protected $dimension;
+    protected Dimension $dimension;
 
     public function getId(){
       return $this->id;
@@ -33,7 +33,7 @@ class Questions
       return $this->dimension;
     }
 
-    public function setDimension($dimension){
+    public function setDimension(Dimension $dimension){
       $this->dimension = $dimension;
     }
 

@@ -33,12 +33,13 @@
       try{
         $em->persist($dimension);
         $em->flush();
+        return $response->withJson(['msg: ' => 'Dimensão adicionada!: '.$dimension->getDimension()])
+        ->withHeader('Content-Type', 'application/json')->withStatus(201);
       } catch(ORMException $e){
         return $response->withJson(['Error: '=> $e->getDimension(), 500])
         ->withHeader('Content-Type', 'application/json');
       }
-      $response->withJson(['Dimensão adicionada!'=> $dimension->getDimension(), 201])
-      ->withHeader('Content-Type', 'application/json');
+      
     }
   
     public function listingAll(Request $request, Response $response, array $ars){
